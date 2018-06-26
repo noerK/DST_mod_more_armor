@@ -22,10 +22,10 @@ server_filter_tags = {
     "armor_bone"
 }
 
-priority = 0.00526960092
+priority = 1
 
 local OPTIONS_DAMAGE_REDUCTION_VALUE = {
-    { 
+    {
         description = "70%",
         data = 0.7
     },
@@ -191,26 +191,26 @@ configuration_options = {
     {
         name = "ARMOR_STONE_BLOCK_VALUE",
         label = "Stone Suit damage reduction",
-        options = OPTIONS_DAMAGE_REDUCTION_VALUE, 
+        options = OPTIONS_DAMAGE_REDUCTION_VALUE,
         default = 0.8,
     },
     {
         name = "ARMOR_STONE_DURABILITY_MULTIPLICATOR",
         label = "Stone Suit durability",
         hover = "The durability will be calculated by this multiplicator and the durability of the Log Suit",
-        options = OPTIONS_DURABILITY_MULTIPLICATOR, 
+        options = OPTIONS_DURABILITY_MULTIPLICATOR,
         default = 2.5,
     },
     {
         name = "ARMOR_STONE_INGREDIENT_ROCKS",
         label = "Stone Suit Rocks needed",
-        options = OPTIONS_INGREDIENT_VALUE, 
+        options = OPTIONS_INGREDIENT_VALUE,
         default = 6,
     },
     {
         name = "ARMOR_STONE_INGREDIENT_ROPE",
         label = "Stone Suit Rope needed",
-        options = OPTIONS_INGREDIENT_VALUE, 
+        options = OPTIONS_INGREDIENT_VALUE,
         default = 2,
     },
     SPACER,
@@ -218,26 +218,26 @@ configuration_options = {
     {
         name = "ARMOR_BONE_BLOCK_VALUE",
         label = "Bone armor damage reduction",
-        options = OPTIONS_DAMAGE_REDUCTION_VALUE, 
+        options = OPTIONS_DAMAGE_REDUCTION_VALUE,
         default = 0.8,
     },
     {
         name = "ARMOR_BONE_DURABILITY_MULTIPLICATOR",
         label = "Bone Suit durability",
         hover = "The durability will be calculated by this multiplicator and the durability of the Log Suit",
-        options = OPTIONS_DURABILITY_MULTIPLICATOR, 
+        options = OPTIONS_DURABILITY_MULTIPLICATOR,
         default = 5,
     },
     {
         name = "ARMOR_BONE_INGREDIENT_BONES",
         label = "Bone Suit Bone Shards needed",
-        options = OPTIONS_INGREDIENT_VALUE, 
+        options = OPTIONS_INGREDIENT_VALUE,
         default = 6,
     },
     {
         name = "ARMOR_BONE_INGREDIENT_ROPE",
         label = "Bone Suit Rope needed",
-        options = OPTIONS_INGREDIENT_VALUE, 
+        options = OPTIONS_INGREDIENT_VALUE,
         default = 2,
     }
 }
