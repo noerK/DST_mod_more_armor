@@ -1,9 +1,7 @@
-name = "More Armor"
-description = "Adds Stone & Bone to the Log Suit. No value changes. The new recipies just provide versions of the log suit with improved durability." ..
-"/n/n Now supports Armor Repair Kit (https://steamcommunity.com/sharedfiles/filedetails/?id=1155672829)"
+name = "!dev-More Armor"
+description = "Adds Stone & Bone to the Log Suit. No value changes. The new recipies just provide versions of the log suit with improved durability.\n\n"
 author = "noerK"
-version = "1.0.1b"
-
+version = "1.0.2"
 forumthread = "http://steamcommunity.com/sharedfiles/filedetails/?id=1153998909"
 
 dst_compatible = true
@@ -13,6 +11,47 @@ all_clients_require_mod = true
 client_only_mod = false
 
 api_version = 10
+
+
+--[[
+[h1]Adds Stone&Bone to the Log Suit. [/h1]
+
+The original idea was just to provide some additional recipies to avoid carrying 3-4 Log Suits.
+
+Now you can upgrade the durability of your Log Suit with Rocks and Bones (which are way more valuable than wood and grass)
+
+I added some configuration options, where you could also change the amount of ingredients needed, durability and block-value if you want to.
+
+Default values:
+
+[b]Stone Suit:[/b]
+[list]
+    [*] Block: 80%
+    [*] Durability: Log Suit's Durability * 2.5
+    [*] Ingredients: 6 Rocks, 2 Rope, 1 Log Suit
+[/list]
+
+[b]Bone Suit:[/b]
+[list]
+    [*] Block: 80%
+    [*] Durability: Log Suit's Durability * 5
+    [*] Ingredients: 6 Bone Shards, 2 Rope, 1 Stone Suit
+[/list]
+
+Now supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1155672829]Armor Repair Kit[/url] -> thnx to [url=https://steamcommunity.com/profiles/765611980567674699]Amnesiac[/url] for providing the needed information.
+
+Thanks to [url=https://steamcommunity.com/id/welchdrew]Terra M Welch[/url] for those awesome character quotes!
+Check out her awesome [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1685602108]Quotimizer Mod[/url]
+
+[b]I hope you like it. If you got any ideas or encounter any bugs, please let me know :)[/b]
+
+My other mods:
+[table][tr]
+[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1417486338][img]https://imgur.com/mL0XSlI.jpg[/img][/url][/td]
+[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1411742977][img]https://imgur.com/1aa3p79.jpg[/img][/url][/td]
+[/tr][/table]
+
+]]
 
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
