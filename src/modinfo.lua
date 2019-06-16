@@ -1,7 +1,7 @@
 name = "!dev-More Armor"
 description = "Adds Stone & Bone to the Log Suit. No value changes. The new recipies just provide versions of the log suit with improved durability.\n\n"
 author = "noerK"
-version = "1.0.2"
+version = "1.0.3"
 forumthread = "http://steamcommunity.com/sharedfiles/filedetails/?id=1153998909"
 
 dst_compatible = true
